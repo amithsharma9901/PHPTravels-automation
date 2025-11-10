@@ -1,0 +1,12 @@
+This project is a simple automation test for the PHPTRAVELS Flight Search website.
+The test opens the browser, goes to the flights page, enters the source city,
+destination city, date of travel, and clicks the Search button.
+
+The script is written in Java using Selenium and TestNG.
+The browser is launched automatically and closes after the test is finished.
+
+Project structure follows Page Object Model:
+- HomePage: handles entering cities, date, and clicking search
+- FlightsResultsPage: reads results after search
+- BaseTest and DriverFactory: handle browser setup and closing
+- FlightSearchTest: main test scenario
